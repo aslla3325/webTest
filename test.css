@@ -1,0 +1,28 @@
+#title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 2px solid black;
+}
+body{
+    width: 100%;
+    display: inline-block;
+}
+nav{
+    float: left;
+    width: 19%;
+    height: 1000px;
+    border-right: 2px solid black;
+}
+nav>ul ol a{
+    text-decoration: underline;
+    color:black;
+}
+nav>ul ol a:hover{
+    color:blue;
+}
+content{
+    float: right;
+    width: 78%;
+}
